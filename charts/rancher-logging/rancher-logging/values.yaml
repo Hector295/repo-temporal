@@ -278,9 +278,9 @@ logging:
       # -- imagePullSecrets of eventTailer image
       imagePullSecrets: []
     # -- workloadMetaOverrides of HostTailer
-    workloadMetaOverrides:
+    workloadMetaOverrides: {}
     # -- workloadOverrides of HostTailer
-    workloadOverrides:
+    workloadOverrides: {}
     # -- configure fileTailers of HostTailer
     # example:
     #   - name: sample-file
